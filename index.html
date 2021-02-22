@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charchit</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    /*  relative is that it will move with its old(normal)positions  */
+    /*  absolute is that it will move with its parent positions which is header now at starting */
+    body {
+        color:white;
+        margin : 0px;
+        padding : 0px;
+        background: url("img/bg.png");
+    }
+    .left{
+        display: inline-block;
+
+        border: 2px solid red;
+        position: absolute;
+        left:0px;
+        top:20px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .left img{
+        width: 136px;
+    }
+    .right{
+        position: absolute;
+        right:0px;
+        top:20px;
+        display: inline-block;
+        border: 2px solid yellow;
+        
+    }
+    .mid{
+
+        display: block; /*this is the */
+        width: 33%; /*  way to display  */
+        margin:12px auto; /* in the center */
+        border: 2px solid green;
+
+    }
+    /* .header{    for centering using flexbox
+        display: flex;
+
+    justify-content:  center;
+    } */
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none; /* to remove line under link*/
+        padding: 5px;
+    }
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        margin: 5px;
+        padding: 2px;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Charchit Fitness</div>
+          
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href = "#" class="active">Home</a></li>
+                <li><a href = "#">About Us</a></li>
+                <li><a href = "#">Fitness center</a></li>
+                <li><a href = "#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+
+            <button class="btn">Call us</button><button class="btn">Email Us</button>
+        </div>
+    </header>    
+
+</body>
+</html>
