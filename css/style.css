@@ -3,7 +3,6 @@
     /*  absolute is that it will move with its parent positions which is header now at starting */
     body {
         font-family: 'Baloo Bhaina 2', cursive;
-        color:white;
         margin : 0px;
         padding : 0px;
         background: url("img/bg.png");
