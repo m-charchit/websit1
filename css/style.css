@@ -1,0 +1,107 @@
+    /* css reset */
+    /*  relative is that it will move with its old(normal)positions  */
+    /*  absolute is that it will move with its parent positions which is header now at starting */
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color:white;
+        margin : 0px;
+        padding : 0px;
+        background: url("/img/bg.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #464646;
+    }
+    .left{
+        display: inline-block;
+
+        /* border: 2px solid red; */
+        position: absolute;
+        left:0px;
+        top:20px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .left img{
+        border-radius: 50%;
+        width: 136px;
+    }
+    .right{
+        position: absolute;
+        right:0px;
+        top:20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        
+    }
+    .mid{
+        text-align: center;
+        display: block; /*this is the */
+        width: 50%; /*  way to display  */
+        margin:12px auto; /* in the center */
+        /* border: 2px solid green; */
+
+    }
+    /* .header{    for centering using flexbox
+        display: flex;
+
+    justify-content:  center;
+    } */
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none; /* to remove line under link*/
+        padding: 5px;
+    }
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhaina 2', cursive;
+        font-size: 20px;
+        margin: 0px 9px; 
+        padding: 2px;
+        background-color: black;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+    }
+    .btn:hover{
+        background-color:rgb(156, 18, 18);
+    }
+    .container {
+        border: 2px solid white;
+        margin: 15px 69px;
+        padding: 38px 115px;
+        width: 33%;
+        border-radius: 25px;
+    }
+    .form-group input{
+        font-family: 'Baloo Bhaina 2', cursive;
+
+        text-align: center;
+        display: block;
+        width: 440px;
+        padding: 4px;
+        margin: 10px auto;
+        border-radius: 15px;
+        font-size: 23px;
+    }
+    .container button{
+        display: block;
+        width: 102%;
+        margin: 29px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
