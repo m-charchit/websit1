@@ -1,17 +1,21 @@
     /* css reset */
     /*  relative is that it will move with its old(normal)positions  */
     /*  absolute is that it will move with its parent positions which is header now at starting */
+    html {
+        scroll-behavior: smooth;
+      }
     body {
         font-family: 'Baloo Bhaina 2', cursive;
-color: white;
-        margin : 0px;
-        padding : 0px;
-        background: url("/websit1/img/bg.png");
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://charchit-beginner.github.io/websit1/img/bg.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-color: darkblue;
+        
     }
     .left{
         display: inline-block;
@@ -83,16 +87,17 @@ color: white;
         border: 2px solid white;
         margin: 15px 69px;
         padding: 38px 115px;
-        width: 33%;
+        width:auto;
         border-radius: 25px;
     }
+    
     .form-group input{
         font-family: 'Baloo Bhaina 2', cursive;
 
         text-align: center;
         display: block;
-        width: 440px;
-        padding: 4px;
+        width: auto;
+        padding: auto;
         margin: 10px auto;
         border-radius: 15px;
         font-size: 23px;
@@ -105,3 +110,29 @@ color: white;
     .container h1{
         text-align: center;
     }
+#about-div {
+    color:aqua;
+    background-color: #0cb6d8;
+    /* border: 2px solid green;   */
+}
+#about-div h2{
+    margin-top: -6px;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+ #about-div p{
+    font-size: 50px;
+    text-align: center;
+}
+footer p{
+    font-size: 15px;
+    right:10px ;
+    margin: 0px 0px !important;
+    /* border: 2px solid; */
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    color: rgb(246, 181, 3);
+    
+}
