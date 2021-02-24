@@ -136,12 +136,16 @@ footer{
     color: rgb(246, 181, 3);
     
 }
-<<<<<<< HEAD
 footer a{
-    color:white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    color: #e0da1b;
     position: fixed;
     left: 10px;
     bottom: 0px;
+}
+footer a:hover{
+    color: pink;
 }
 .container p {
     background-color:rgb(208 12 79 / 45%);
@@ -168,5 +172,3 @@ footer a{
         background-color: #864cbf
     }
 }
-=======
->>>>>>> f0ebabbc7f566cc3bd597788c1d81e9b1dbaf2bd
