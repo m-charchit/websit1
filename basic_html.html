@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>charchit</title>
 </head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+
+
 
 <body>
     <header class="header">
@@ -40,29 +39,28 @@
     </header>    
     <div class="container">
         <h1>Join The Best Gym</h1>
-        <!-- <form action="noaction.php"> -->
+        <form action="noaction.php">
             <div class="form-group">
-                <input id="name" type="text" name="" placeholder="enter your name">
+                <input type="text" name="" placeholder="enter your name">
             </div>
             <div class="form-group">
-                <input id="gender" type="text" name="" placeholder="enter your gender">
+                <input type="text" name="" placeholder="enter your gender">
             </div>
             <div class="form-group">
-                <input id="age"  type="text" name="" placeholder="enter your age">
+                <input type="text" name="" placeholder="enter your age">
             </div>
             <div class="form-group">
-                <input id="ph" type="text" name="" placeholder="enter your phone number">
+                <input type="text" name="" placeholder="enter your phone number">
             </div>
-            <button class="btn" onclick="done()">Sumbit</button>
-        <!-- </form> -->
-        <p id="pp"></p>
+            <button class="btn">Sumbit</button>
+        </form>
     </div>
     <div id="about-div">
     <h2 id="about">About Us</h2>
-    <p id="java-p">My first website. If you want the code for it then visit <i><a href="https://github.com/Charchit-beginner/websit1.git">HERE</a></p></div></i>
+    <p>My first website. If you want the code for it then visit <i><a href="https://github.com/Charchit-beginner/websit1.git">HERE</a></p></div></i>
     <footer>
         <p><b>© charchit <br> 23/2/2021</b></p>
-        <a href="basic_html.html">load basic html</a>
+        <a href="index.html">load standard html</a>
     </footer>
 <script>
 //     var load_css = false
@@ -88,18 +86,6 @@
 //       head.removeChild(link)
 //   }
     
-    function done(){
-    name = document.getElementById("name").value
-    gender = document.getElementById("gender").value
-    age = document.getElementById("age").value
-    ph = document.getElementById("ph").value
-    pp = document.getElementById("pp")
-    if (name != ""){
-    pp.innerText = `Your form has been sumbitted ${name}`}
-    else if (gender == "" || age == "" || name == "" || ph == ""){ 
-    pp.innerText = "Please give complete information"}
-  
-    }
     
 </script>
 
