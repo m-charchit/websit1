@@ -125,7 +125,7 @@
     font-size: 50px;
     text-align: center;
 }
-footer p{
+footer{
     font-size: 15px;
     right:10px ;
     margin: 0px 0px !important;
@@ -136,6 +136,7 @@ footer p{
     color: rgb(246, 181, 3);
     
 }
+<<<<<<< HEAD
 footer a{
     color:white;
     position: fixed;
@@ -167,3 +168,5 @@ footer a{
         background-color: #864cbf
     }
 }
+=======
+>>>>>>> f0ebabbc7f566cc3bd597788c1d81e9b1dbaf2bd
